@@ -3,7 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 
-data = pd.read_csv('/kaggle/input/mnist-digit-recognizer/train.csv')
+data = pd.read_csv('train.csv')
 #print(data.head())
 data = np.array(data)
 m, n = data.shape
